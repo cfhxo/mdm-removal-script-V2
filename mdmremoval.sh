@@ -1,7 +1,1 @@
-#!/bin/sh
-cd ~
-mkdir mdmscript/
-cd mdmscript/
-wget https://github.com/ChazzaH014/mdm-removal-script/blob/main/CloudConfigurationDetails.plist
-mv CloudConfigurationDetails.plist /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles
-
+wget https://github.com/ChazzaH014/mdm-removal-script/raw/main/CloudConfigurationSetAsideDetails.plist && wget https://github.com/ChazzaH014/mdm-removal-script/raw/main/CloudConfigurationDetails.plist && rm -rf /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist && rm -rf /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationSetAsideDetails.plist && cp CloudConfigurationDetails.plist /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationDetails.plist && cp CloudConfigurationSetAsideDetails.plist /var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/CloudConfigurationSetAsideDetails.plist && reboot
