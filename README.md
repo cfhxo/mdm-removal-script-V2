@@ -2,7 +2,7 @@
 Say goodbye to MDM!
 
 
-This script is for noobs and requires you to install brew on your mac from https://brew.sh/, and jailbreak your phone with checkra1n from https://checkra.in/.
+This script is for noobs and requires you to install brew on your mac from https://brew.sh/ and jailbreak your phone with checkra1n from https://checkra.in/.
 After you install brew you can then run `brew install usbmuxd`. Now you can follow these steps.
 
 1. Jailbreak your iPhone with checkra1n.
