@@ -1,3 +1,5 @@
+# This project has been archived as its dirty and needs to be redone. 
+
 # mdm-removal-script
 Say goodbye to MDM!
 
