@@ -1,18 +1,15 @@
-# This project has been archived as its dirty and needs to be redone. 
+# Introducing mdm-removal-script-V2!
 
-# mdm-removal-script
-Say goodbye to MDM!
+### UI coming soon. Stay tuned...
 
-
-This script is for noobs and requires you to install brew on your mac from https://brew.sh/ and jailbreak your phone with checkra1n from https://checkra.in/.
-After you install brew you can then run `brew install usbmuxd`. Now you can follow these steps.
-
-1. Jailbreak your iPhone with checkra1n.
-2. On your mac, open terminal and run `iproxy 4444 44`
-3. Run `ssh -p 44 root@localhost` and authenticate with the password as `alpine`
-4. Run `wget https://raw.githubusercontent.com/ChazzaH014/mdm-removal-script/main/mdmremoval.sh`
-5. Run `chmod 777 ./mdmremoval.sh`
-6. Run `./mdmremoval.sh`
-7. Profit? 
+## How do i use it?
+Its simple, just make sure you install checkra1n first from the <a href=https://checkra.in>checkra1n</a> Website.
+1. Clone the repo, or download it as a `.zip`.
+2. Open a terminal and go to the downloaded folder.
+3. Run `chmod +x ./MDM-Remove-Host.sh`.
+4. Run `./MDM-Remove-Host.sh`
+5. It will open checkra1n for you. Follow the prompts to jailbreak your device.
+6. Hit Enter in the terminal when you're done with checkra1n.
+8. Profit? 
 
 Your device should reboot and youll be greeted with setup again, proceed as normal and you should see no more MDM. :)
