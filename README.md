@@ -3,7 +3,7 @@
 
 ### New Features
 * The script has been condensed into a single file, simplifying its usage.
-* A user interface is currently in development and will be released soon.
+* A user interface is currently in development and will be released eventually.
 
 ### Device Support?
 Honestly i am not sure. I did my testing on an iPhone 8 running 14.7.1. I would love to hear how you go with it. 
